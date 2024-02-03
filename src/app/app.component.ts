@@ -8,7 +8,13 @@ import { CriarUsuarioComponent } from './components/pages/criar-usuario/criar-us
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, NavbarComponent, LoginComponent, CriarUsuarioComponent], 
+  imports: [
+    CommonModule, 
+    RouterOutlet,
+    NavbarComponent,
+    LoginComponent,
+    CriarUsuarioComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
